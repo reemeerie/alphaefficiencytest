@@ -532,7 +532,7 @@ main {
     height: 794px;
     left: 0px;
     top: 2129px;
-    background: #F9F9F9;
+    background: #FFFFFF;
 }
 .helpImage{
     box-sizing: border-box;
@@ -635,7 +635,7 @@ main {
     height: 796px;
     left: 0px;
     top: 2923px;
-    background: #F9F9F9;
+    background: #FFFFFF;
 }
 .benefictsTitle{
     position: absolute;
@@ -863,7 +863,7 @@ main {
     padding: 15px 20px;
     width: 1135px;
     /* height: 64px; */
-    background: #F9F9F9;
+    background: #FFFFFF;
     border-radius: 20px;
     flex: none;
     order: 0;
@@ -1558,7 +1558,6 @@ main {
     .spots{
         width: 281px;
         height: 19px;
-        left: 47px;
         top: 313px;
     }
     .brand img{
