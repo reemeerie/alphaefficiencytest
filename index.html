@@ -17,7 +17,7 @@
 <body>
     <nav>
         <div class="brand">
-            <img src="/icon.png" alt="o svg etc">
+            <img src="/icon.png" alt="">
         </div>
         <ul>
             <li>About us</li>
@@ -29,360 +29,394 @@
             <li>Shop</li>
             <li>Subscription</li>
         </ul>
-        <svg width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24.0234 7.8125H0.976562C0.437207 7.8125 0 8.24971 0 8.78906C0 9.32842 0.437207 9.76562 0.976562 9.76562H24.0234C24.5628 9.76562 25 9.32842 25 8.78906C25 8.24971 24.5628 7.8125 24.0234 7.8125Z" fill="#DD71C6"/>
-            <path d="M24.0234 0H0.976562C0.437207 0 0 0.437207 0 0.976562C0 1.51592 0.437207 1.95312 0.976562 1.95312H24.0234C24.5628 1.95312 25 1.51592 25 0.976562C25 0.437207 24.5628 0 24.0234 0Z" fill="#DD71C6"/>
-            <path d="M24.0234 15.625H0.976562C0.437207 15.625 0 16.0622 0 16.6016C0 17.1409 0.437207 17.5781 0.976562 17.5781H24.0234C24.5628 17.5781 25 17.1409 25 16.6016C25 16.0622 24.5628 15.625 24.0234 15.625Z" fill="#DD71C6"/>
-        </svg>    
+        <div class="barsMenu">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+        </div>    
     </nav>
     <main>
-        <div class="primaryContainer">
-            <h2 class="chicagosTitle">Chicago’s <p>Free</p> Medical Check-Up and Weight Loss Consultation</h2>
-                <p class="spots">Only <strong class="pink">11</strong> spots available!</p>
-
-            <p class="chicagosDesc">Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
-
-            <button class="primaryButton">
-                <p>Book my appointment</p>
-            </button>
-            <div class="timerContainer">
-                <p class="timerTitle">Your offer ends in:</p>
-                <div class="timerList">
-                    <div class="time">
-                        <h3>DAYS</h3>
-                        <div class="number">
-                            <p class="zero">00</p>
-                        </div>
-                    </div>
-                    <div class="time">
-                        <h3>HOURS</h3>
-                        <div class="number">
-                            <p>16</p>
-                        </div>
-                    </div>
-                    <div class="time">
-                        <h3>MINUTES</h3>
-                        <div class="number">
-                            <p>29</p>
-                        </div>
-                    </div>
-                    <div class="time">
-                        <h3>SECONDS</h3>
-                        <div class="number">
-                            <p>27</p>
+        <div class="menuNav">
+            <ul>
+                <li>About us</li>
+                <li>Book Online</li>
+                <li>Weight Loss Programs</li>
+                <li>Real Patient Stories</li>
+                <li>Locations</li>
+                <li>Blog</li>
+                <li>Shop</li>
+                <li>Subscription</li>
+            </ul>
+        </div>
+        <section class="primaryContainer">
+            <div class="welcomeContainer">
+                <div class="primaryContent">
+                    <h2 class="chicagosTitle">Chicago’s <p>Free</p> Medical Check-Up and Weight Loss Consultation</h2>
+                    <div class="timerContainer">
+                        <p class="timerTitle">Your offer ends in:</p>
+                        <div class="timerList">
+                            <div class="time">
+                                <h3>DAYS</h3>
+                                <div class="number">
+                                    <p class="zero" id="days">00</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <h3>HOURS</h3>
+                                <div class="number">
+                                    <p id="hours">16</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <h3>MINUTES</h3>
+                                <div class="number">
+                                    <p id="minutes">29</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <h3>SECONDS</h3>
+                                <div class="number">
+                                    <p id="seconds">27</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="primaryContent2">
+                    <p class="chicagosDesc">Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
+                    <button class="primaryButton">
+                        <p>Book my appointment</p>
+                    </button>
+                </div>
             </div>
+            <p class="spots">Only <strong class="pink">11</strong> spots available!</p>
             <div class="circle"></div>
-        </div>
-        <div class="yellowContainer"></div>
-        <div class="pinkContainer">
+            <div class="yellowContainer"></div>
+        </section>
+
+        <section class="pinkContainer">
             <div class="circle2"></div>
             <div class="circle3"></div>
-        <div class="mobileCards">
-            <div class="card1">
-                <svg width="43" height="39" viewBox="0 0 43 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M37.1665 9.70837H5.83317C3.67006 9.70837 1.9165 11.4619 1.9165 13.625V33.2084C1.9165 35.3715 3.67006 37.125 5.83317 37.125H37.1665C39.3296 37.125 41.0832 35.3715 41.0832 33.2084V13.625C41.0832 11.4619 39.3296 9.70837 37.1665 9.70837Z" stroke="#73C3F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M29.3332 37.125V5.79167C29.3332 4.7529 28.9205 3.75668 28.186 3.02216C27.4515 2.28765 26.4553 1.875 25.4165 1.875H17.5832C16.5444 1.875 15.5482 2.28765 14.8137 3.02216C14.0792 3.75668 13.6665 4.7529 13.6665 5.79167V37.125" stroke="#73C3F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <div class="amountContainer">
-                    <h3 class="amount">10</h3>
-                    <h3 class="amount plus">+</h3>
+            <div class="mobileCards">
+                <div class="card1">
+                    <svg width="43" height="39" viewBox="0 0 43 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M37.1665 9.70837H5.83317C3.67006 9.70837 1.9165 11.4619 1.9165 13.625V33.2084C1.9165 35.3715 3.67006 37.125 5.83317 37.125H37.1665C39.3296 37.125 41.0832 35.3715 41.0832 33.2084V13.625C41.0832 11.4619 39.3296 9.70837 37.1665 9.70837Z" stroke="#73C3F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M29.3332 37.125V5.79167C29.3332 4.7529 28.9205 3.75668 28.186 3.02216C27.4515 2.28765 26.4553 1.875 25.4165 1.875H17.5832C16.5444 1.875 15.5482 2.28765 14.8137 3.02216C14.0792 3.75668 13.6665 4.7529 13.6665 5.79167V37.125" stroke="#73C3F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="amountContainer">
+                        <h3 class="amount">10</h3>
+                        <h3 class="amount plus">+</h3>
+                    </div>
+                    <p class="cardP">years in business</p>
                 </div>
-                <p class="cardP">years in business</p>
-            </div>
-            <div class="card2">
-                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21.4998 41.0833C32.3154 41.0833 41.0832 32.3155 41.0832 21.5C41.0832 10.6844 32.3154 1.91663 21.4998 1.91663C10.6843 1.91663 1.9165 10.6844 1.9165 21.5C1.9165 32.3155 10.6843 41.0833 21.4998 41.0833Z" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M13.6665 25.4166C13.6665 25.4166 16.604 29.3333 21.4998 29.3333C26.3957 29.3333 29.3332 25.4166 29.3332 25.4166" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M15.625 15.625H15.6446" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M27.375 15.625H27.3946" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <div class="amountContainer">
-                    <h3 class="amount">2.000</h3>
-                    <h3 class="amount plus">+</h3>
+                <div class="card2">
+                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.4998 41.0833C32.3154 41.0833 41.0832 32.3155 41.0832 21.5C41.0832 10.6844 32.3154 1.91663 21.4998 1.91663C10.6843 1.91663 1.9165 10.6844 1.9165 21.5C1.9165 32.3155 10.6843 41.0833 21.4998 41.0833Z" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.6665 25.4166C13.6665 25.4166 16.604 29.3333 21.4998 29.3333C26.3957 29.3333 29.3332 25.4166 29.3332 25.4166" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.625 15.625H15.6446" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M27.375 15.625H27.3946" stroke="#FFCF54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="amountContainer">
+                        <h3 class="amount">2.000</h3>
+                        <h3 class="amount plus">+</h3>
+                    </div>
+                    <p class="cardP">positive reviews</p>
                 </div>
-                <p class="cardP">positive reviews</p>
-            </div>
-            <div class="card3">
-                <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M37.125 18.5209C37.1317 21.1056 36.5278 23.6554 35.3625 25.9626C33.9808 28.7272 31.8566 31.0526 29.2279 32.6782C26.5992 34.3039 23.5699 35.1655 20.4792 35.1667C17.8944 35.1735 15.3446 34.5696 13.0375 33.4042L1.875 37.1251L5.59583 25.9626C4.43049 23.6554 3.82659 21.1056 3.83333 18.5209C3.83453 15.4302 4.6962 12.4008 6.32182 9.77213C7.94745 7.14346 10.2728 5.01929 13.0375 3.63756C15.3446 2.47221 17.8944 1.86832 20.4792 1.87506H21.4583C25.5402 2.10025 29.3955 3.82313 32.2862 6.71382C35.1769 9.60451 36.8998 13.4599 37.125 17.5417V18.5209Z" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>  
-                <div class="amountContainer">
-                    <h3 class="amount">15.000</h3>
-                    <h3 class="amount plus">+</h3>
+                <div class="card3">
+                    <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M37.125 18.5209C37.1317 21.1056 36.5278 23.6554 35.3625 25.9626C33.9808 28.7272 31.8566 31.0526 29.2279 32.6782C26.5992 34.3039 23.5699 35.1655 20.4792 35.1667C17.8944 35.1735 15.3446 34.5696 13.0375 33.4042L1.875 37.1251L5.59583 25.9626C4.43049 23.6554 3.82659 21.1056 3.83333 18.5209C3.83453 15.4302 4.6962 12.4008 6.32182 9.77213C7.94745 7.14346 10.2728 5.01929 13.0375 3.63756C15.3446 2.47221 17.8944 1.86832 20.4792 1.87506H21.4583C25.5402 2.10025 29.3955 3.82313 32.2862 6.71382C35.1769 9.60451 36.8998 13.4599 37.125 17.5417V18.5209Z" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>  
+                    <div class="amountContainer">
+                        <h3 class="amount">15.000</h3>
+                        <h3 class="amount plus">+</h3>
+                    </div>
+                    <p class="cardP">satisfied clients</p>
                 </div>
-                <p class="cardP">satisfied clients</p>
-            </div>
-            <div class="card4">
-                <svg width="43" height="39" viewBox="0 0 43 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M41.0832 19.5H33.2498L27.3748 37.125L15.6248 1.875L9.74984 19.5H1.9165" stroke="#55A201" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <div class="amountContainer">
-                    <h3 class="amount">Many</h3>
-                    <h3 class="amount plus">+</h3>
+                <div class="card4">
+                    <svg width="43" height="39" viewBox="0 0 43 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M41.0832 19.5H33.2498L27.3748 37.125L15.6248 1.875L9.74984 19.5H1.9165" stroke="#55A201" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="amountContainer">
+                        <h3 class="amount">Many</h3>
+                        <h3 class="amount plus">+</h3>
+                    </div>
+                    <p class="cardP nurses">nurses and physician assistants on staff</p>
                 </div>
-                <p class="cardP nurses">nurses and physician assistants on staff</p>
             </div>
-        </div>
             <button class="yellowButton">
                 <p>Book my appointment</p>
             </button>
-        </div>
-        <div class="blueContainer">
-            <div class="who">
-                <h3 class="whoTitle1">Who Is The Consultation For?</h3>
-                <p class="whoDesc1">Chicago’s free medical check-up and weight loss consultation is for Chicago residents who are looking to lose weight so they can live a long, vibrant and healthy life, while looking good and not breaking the bank.</p>
-                <h3 class="whoTitle2">How Does It Work?</h3>
-                <p class="whoDesc2">In this exam a certified nurse or physician will do various tests to check your overall health level and find which easy-to-do physician-supervised weight loss program will work best for you.</p>
-                <button class="pinkButton">
-                    <p>Book my appointment</p>
-                </button>
+        </section>
+
+        <section class="blueContainer">
+            <div class="blueContent">
+                <div class="who">
+                    <h3 class="whoTitle1">Who Is The Consultation For?</h3>
+                    <p class="whoDesc1">Chicago’s free medical check-up and weight loss consultation is for Chicago residents who are looking to lose weight so they can live a long, vibrant and healthy life, while looking good and not breaking the bank.</p>
+                    <h3 class="whoTitle2">How Does It Work?</h3>
+                    <p class="whoDesc2">In this exam a certified nurse or physician will do various tests to check your overall health level and find which easy-to-do physician-supervised weight loss program will work best for you.</p>
+                    <button class="pinkButton">
+                        <p>Book my appointment</p>
+                    </button>
+                </div>
+                <div class="womanContainer">
+                    <div class="womanCircle">
+                        <img src="woman.png" class="woman" alt="">
+                    </div>
+                </div>
             </div>
             <div class="circle4"></div>
             <div class="circle5"></div>
             <div class="circle6"></div>
-            <div class="womanCircle"></div>
-            <img src="woman.png" class="woman" alt="">
-        </div>
-        <div class="helpContainer">
+        </section>
+
+        <section class="helpContainer">
+            <div class="help1">
+                <h3 class="helpTitle">We Can Help You</h3>
+                <p class="helpDesc1">For those of us who struggle with our weight
+                    it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not work for us.
+                    They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry. We are here to tell you that it doesn’t have to be that way. There is hope! Technology has advanced rapidly in recent years and now, with proper guidance...
+                </p>
+            </div>
+            <div class="help2">
+                <p class="helpDesc2">You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their confidence and are living happy exuberant lives with their family. They did this without: breaking the bank, sweating buckets in intense workout programs, and most importantly, without giving up ice-cream, bread, pizza, doughnuts and all their favorite foods.</p>
+                <button class="helpButton">
+                    <p>Book my appointment</p>
+                </button>
+            </div>
             <div class="imgContainer">
                 <div class="helpImage"></div>
             </div>
-        </div>
-        <h3 class="helpTitle">We Can Help You</h3>
-        <p class="helpDesc1">For those of us who struggle with our weight
-            it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not work for us.
-            They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry. We are here to tell you that it doesn’t have to be that way. There is hope! Technology has advanced rapidly in recent years and now, with proper guidance...
-        </p>
-        <p class="helpDesc2">You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their confidence and are living happy exuberant lives with their family. They did this without: breaking the bank, sweating buckets in intense workout programs, and most importantly, without giving up ice-cream, bread, pizza, doughnuts and all their favorite foods.</p>
-        <button class="helpButton">
-            <p>Book my appointment</p>
-        </button>
-        <div class="beneficts">
+        </section>
+
+        <section class="beneficts">
             <h3 class="benefictsTitle">What You’ll Get At Your <p>Free</p> Consultation</h3>
-        <div class="bodyVitalContainer">
-            <div class="bodyMass">
-                <h5 class="bodyTitle">Body Mass Index</h5>
-                <div class="line"></div>
-                <ul>
-                    <li>Complete understanding of your body composition</li>
-                    <li>A clear view of your weight loss goals</li>
-                    <li>Clear data to help you make an informed decision about your health</li>
-                </ul>
+            <div class="bodyVitalContainer">
+                <div class="bodyMass">
+                    <h5 class="bodyTitle">Body Mass Index</h5>
+                    <div class="line"></div>
+                    <ul>
+                        <li>Complete understanding of your body composition</li>
+                        <li>A clear view of your weight loss goals</li>
+                        <li>Clear data to help you make an informed decision about your health</li>
+                    </ul>
+                </div>
+                <div class="vitalSigns">
+                    <h5 class="vitalTitle">Vital Signs Check</h5>
+                    <div class="line2"></div>
+                    <ul>
+                        <li>Body temperature</li>
+                        <li>Pulse rate, heart's rate, rhythm and regularity</li>
+                        <li>Breathing rate</li>
+                        <li>Blood pressure</li>
+                    </ul>
+                </div>
             </div>
-            <div class="vitalSigns">
-                <h5 class="vitalTitle">Vital Signs Check</h5>
-                <div class="line2"></div>
-                <ul>
-                    <li>Body temperature</li>
-                    <li>Pulse rate, heart's rate, rhythm and regularity</li>
-                    <li>Breathing rate</li>
-                    <li>Blood pressure</li>
-                </ul>
-            </div>
-        </div>
             <button class="benefictsButton">
                 <p>Book my apointment</p>
             </button>
-        </div>
-        <div class="questions">
+        </section>
+
+        <section class="questions">
             <h3 class="questionsTitle">Frequently Asked Questions</h3>
-        </div>
-        <button class="questionsButton">
-            <p>Book my apointment</p>
-        </button>
-        <div class="questionsContainer">
-            <div class="question">
-                <div class="questionHeader">
-                    <p>Why is it free?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
+            <div class="questionsContainer">
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>Why is it free?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div>
                 </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>Do I need this if I’ve had my yearly medical check? What is the difference?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div>  
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>Can I bring another person to the appointment?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div> 
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>How long does it take?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div>  
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>What if I have to cancel or if I’m not sure I’ll be able to make it?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div>  
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>Do I need to bring anything with me?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div> 
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>What if I don’t have insurance?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div>  
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>Do the weight loss programs you offer work?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div> 
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>What’s the catch?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div>  
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>Will I have to exhaust myself in the gym to make it work?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div> 
+                </div>
+                <div class="question">
+                    <div class="questionHeader">
+                        <p>Where are you located?</p>
+                        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
+                    </div>  
                 </div>
             </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>Do I need this if I’ve had my yearly medical check? What is the difference?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
+            <button class="questionsButton">
+                <p>Book my apointment</p>
+            </button>
+        </section>
+
+        <section class="footer">
+            <div class="testFooter">
+                <div class="footerCont1">
+                    <img src="icon.png" alt="" class="iconFooter">
+                    <p class="footerDesc">A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated to helping you achieve long term weight loss success with the use of FDA approved medication.</p>
+                    <div class="location">
+                        <svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_278_310)">
+                            <path d="M18 7C18 6.08075 17.8189 5.1705 17.4672 4.32122C17.1154 3.47194 16.5998 2.70026 15.9497 2.05025C15.2997 1.40024 14.5281 0.884626 13.6788 0.532843C12.8295 0.18106 11.9193 0 11 0C10.0807 0 9.17049 0.18106 8.32122 0.532843C7.47194 0.884626 6.70026 1.40024 6.05025 2.05025C5.40024 2.70026 4.88463 3.47194 4.53284 4.32122C4.18106 5.1705 4 6.08075 4 7C4 8.387 4.41 9.677 5.105 10.765H5.097C7.457 14.46 11 20 11 20L16.903 10.765H16.896C17.6164 9.64137 17.9995 8.33474 18 7V7ZM11 10C10.2044 10 9.44129 9.68393 8.87868 9.12132C8.31607 8.55871 8 7.79565 8 7C8 6.20435 8.31607 5.44129 8.87868 4.87868C9.44129 4.31607 10.2044 4 11 4C11.7956 4 12.5587 4.31607 13.1213 4.87868C13.6839 5.44129 14 6.20435 14 7C14 7.79565 13.6839 8.55871 13.1213 9.12132C12.5587 9.68393 11.7956 10 11 10Z" fill="#DD71C6"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d_278_310" x="0" y="0" width="22" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_278_310"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_278_310" result="shape"/>
+                            </filter>
+                            </defs>
+                        </svg>
+                        <div>
+                            <p class="">Head Office: <p class="light">1931 W 95th Streeet Chicago IL, 60643</p></p>    
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3396 14.2139L15.0624 12.491C15.2945 12.2618 15.5881 12.1049 15.9076 12.0394C16.2271 11.9739 16.5587 12.0025 16.8623 12.1218L18.962 12.9602C19.2688 13.0847 19.5318 13.2972 19.7179 13.5709C19.9041 13.8447 20.005 14.1674 20.0081 14.4985V18.3442C20.0063 18.5694 19.9589 18.7919 19.8689 18.9983C19.7789 19.2047 19.648 19.3908 19.4841 19.5453C19.3203 19.6998 19.1269 19.8195 18.9155 19.8973C18.7042 19.9751 18.4793 20.0093 18.2544 19.9979C3.54063 19.0826 0.57172 6.62239 0.0102431 1.85368C-0.0158211 1.6195 0.00799306 1.38246 0.0801187 1.15814C0.152244 0.933831 0.271047 0.727331 0.428711 0.55223C0.586374 0.377128 0.779326 0.237394 0.994872 0.142219C1.21042 0.0470438 1.44367 -0.00141458 1.67929 3.14343e-05H5.39427C5.72578 0.0010127 6.04942 0.101149 6.32355 0.287561C6.59769 0.473973 6.80978 0.738135 6.93257 1.04607L7.77094 3.14584C7.89419 3.44817 7.92564 3.78011 7.86135 4.10021C7.79706 4.4203 7.63987 4.71436 7.40944 4.94565L5.68655 6.66854C5.68655 6.66854 6.67875 13.3832 13.3396 14.2139Z" fill="#DD71C6"/>
+                        </svg>
+                        <div>
+                            <p class="phoneWord">Phone: <p class="light">773-496-4222</p></p>  
+                        </div>
+                    </div>
                 </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div>  
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>Can I bring another person to the appointment?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
+                <div class="aboutLinks">
+                    <div class="aboutFooter">
+                        <h4>About</h4>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Book Online</li>
+                            <li>Locations</li>
+                            <li>Real Patient Stories</li>
+                            <li>Weight Loss Programs</li>
+                        </ul>
+                    </div>
+                    <div class="moreLinks">
+                        <h4>More Links</h4>
+                        <ul>
+                            <li>Franchise Opportunities</li>
+                            <li>Career Opportunities</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms & Conditions</li>
+                            <li>Return Policy</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div> 
             </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>How long does it take?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div>  
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>What if I have to cancel or if I’m not sure I’ll be able to make it?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div>  
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>Do I need to bring anything with me?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div> 
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>What if I don’t have insurance?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div>  
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>Do the weight loss programs you offer work?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div> 
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>What’s the catch?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div>  
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>Will I have to exhaust myself in the gym to make it work?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div> 
-            </div>
-            <div class="question">
-                <div class="questionHeader">
-                    <p>Where are you located?</p>
-                    <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3L13 13L23 3" stroke="#DD71C6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque tempor nisl, at gravida dolor consectetur id. Aliquam non sapien suscipit, ullamcorper leo quis, vestibulum purus. Vestibulum vehicula velit ac libero lobortis fermentum. Nam ac euismod quam, sit amet lacinia sapien.</p>
-                </div>  
-            </div>
-        </div>
-        <div class="footer"></div>
-        <div class="testFooter">
-        <div class="footerCont1">
-            <img src="icon.png" alt="" class="iconFooter">
-            <p class="footerDesc">A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated to helping you achieve long term weight loss success with the use of FDA approved medication.</p>
-            <div class="location">
-                <svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g filter="url(#filter0_d_278_310)">
-                    <path d="M18 7C18 6.08075 17.8189 5.1705 17.4672 4.32122C17.1154 3.47194 16.5998 2.70026 15.9497 2.05025C15.2997 1.40024 14.5281 0.884626 13.6788 0.532843C12.8295 0.18106 11.9193 0 11 0C10.0807 0 9.17049 0.18106 8.32122 0.532843C7.47194 0.884626 6.70026 1.40024 6.05025 2.05025C5.40024 2.70026 4.88463 3.47194 4.53284 4.32122C4.18106 5.1705 4 6.08075 4 7C4 8.387 4.41 9.677 5.105 10.765H5.097C7.457 14.46 11 20 11 20L16.903 10.765H16.896C17.6164 9.64137 17.9995 8.33474 18 7V7ZM11 10C10.2044 10 9.44129 9.68393 8.87868 9.12132C8.31607 8.55871 8 7.79565 8 7C8 6.20435 8.31607 5.44129 8.87868 4.87868C9.44129 4.31607 10.2044 4 11 4C11.7956 4 12.5587 4.31607 13.1213 4.87868C13.6839 5.44129 14 6.20435 14 7C14 7.79565 13.6839 8.55871 13.1213 9.12132C12.5587 9.68393 11.7956 10 11 10Z" fill="#DD71C6"/>
-                    </g>
-                    <defs>
-                    <filter id="filter0_d_278_310" x="0" y="0" width="22" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="2"/>
-                    <feComposite in2="hardAlpha" operator="out"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_278_310"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_278_310" result="shape"/>
-                    </filter>
-                    </defs>
+            <div class="bottomFooter">
+                <svg width="132" height="30" viewBox="0 0 132 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="networks">
+                    <circle cx="66" cy="15" r="15" fill="#DD71C6"/>
+                    <path d="M73 10.3466C72.4794 10.575 71.9246 10.7264 71.3462 10.7999C71.9412 10.4446 72.3954 9.88637 72.6089 9.2135C72.0541 9.54425 71.4416 9.77788 70.7889 9.90825C70.2621 9.34738 69.5114 9 68.6924 9C67.1034 9 65.8241 10.2898 65.8241 11.8709C65.8241 12.0984 65.8434 12.3171 65.8906 12.5254C63.5045 12.409 61.3931 11.2654 59.9747 9.52325C59.7271 9.95288 59.5819 10.4446 59.5819 10.974C59.5819 11.968 60.0938 12.8491 60.8568 13.3593C60.3956 13.3505 59.9433 13.2166 59.56 13.0058C59.56 13.0145 59.56 13.0259 59.56 13.0373C59.56 14.432 60.5549 15.5905 61.8595 15.8574C61.6259 15.9212 61.3712 15.9519 61.107 15.9519C60.9232 15.9519 60.7377 15.9414 60.5636 15.9029C60.9355 17.0395 61.9908 17.8751 63.2455 17.9023C62.269 18.6661 61.0291 19.1264 59.6869 19.1264C59.4515 19.1264 59.2257 19.1159 59 19.087C60.2714 19.9069 61.7781 20.375 63.403 20.375C68.6845 20.375 71.572 16 71.572 12.2077C71.572 12.0809 71.5676 11.9584 71.5615 11.8368C72.1311 11.4325 72.6097 10.9276 73 10.3466Z" fill="white"/>
+                    <circle cx="117" cy="15" r="15" fill="#DD71C6"/>
+                    <path d="M115.693 22V15.4308H114V13.0656H115.693V11.0454C115.693 9.45785 116.693 8 118.997 8C119.93 8 120.62 8.09177 120.62 8.09177L120.566 10.3005C120.566 10.3005 119.862 10.2935 119.094 10.2935C118.263 10.2935 118.13 10.6864 118.13 11.3385V13.0656H120.632L120.523 15.4308H118.13V22H115.693Z" fill="white"/>
+                    <circle cx="15" cy="15" r="15" fill="#DD71C6"/>
+                    <path d="M14.9981 12.6657C13.7128 12.6657 12.6638 13.7146 12.6638 15C12.6638 16.2854 13.7128 17.3343 14.9981 17.3343C16.2835 17.3343 17.3324 16.2854 17.3324 15C17.3324 13.7146 16.2835 12.6657 14.9981 12.6657ZM21.9992 15C21.9992 14.0333 22.008 13.0754 21.9537 12.1105C21.8994 10.9898 21.6437 9.99512 20.8242 9.17556C20.0029 8.35426 19.01 8.10034 17.8893 8.04605C16.9226 7.99176 15.9648 8.00052 14.9999 8.00052C14.0332 8.00052 13.0754 7.99176 12.1105 8.04605C10.9897 8.10034 9.99508 8.35601 9.17554 9.17556C8.35425 9.99687 8.10034 10.9898 8.04605 12.1105C7.99177 13.0772 8.00052 14.0351 8.00052 15C8.00052 15.9649 7.99177 16.9246 8.04605 17.8895C8.10034 19.0102 8.356 20.0049 9.17554 20.8244C9.99683 21.6457 10.9897 21.8997 12.1105 21.9539C13.0771 22.0082 14.035 21.9995 14.9999 21.9995C15.9665 21.9995 16.9244 22.0082 17.8893 21.9539C19.01 21.8997 20.0047 21.644 20.8242 20.8244C21.6455 20.0031 21.8994 19.0102 21.9537 17.8895C22.0097 16.9246 21.9992 15.9667 21.9992 15ZM14.9981 18.5917C13.0106 18.5917 11.4065 16.9876 11.4065 15C11.4065 13.0124 13.0106 11.4083 14.9981 11.4083C16.9857 11.4083 18.5897 13.0124 18.5897 15C18.5897 16.9876 16.9857 18.5917 14.9981 18.5917ZM18.7368 12.1C18.2728 12.1 17.898 11.7253 17.898 11.2612C17.898 10.7972 18.2728 10.4224 18.7368 10.4224C19.2009 10.4224 19.5756 10.7972 19.5756 11.2612C19.5758 11.3714 19.5542 11.4806 19.5121 11.5824C19.47 11.6842 19.4082 11.7767 19.3303 11.8547C19.2523 11.9326 19.1598 11.9944 19.058 12.0365C18.9562 12.0786 18.847 12.1002 18.7368 12.1Z" fill="white"/>
                 </svg>
-                <div>
-                    <p class="">Head Office: <p class="light">1931 W 95th Streeet Chicago IL, 60643</p></p>    
-                </div>
+                <p class="copyright">Copyright by A Better Weigh Inc. All rights reserved.</p>
             </div>
-            <div class="phone">
-                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.3396 14.2139L15.0624 12.491C15.2945 12.2618 15.5881 12.1049 15.9076 12.0394C16.2271 11.9739 16.5587 12.0025 16.8623 12.1218L18.962 12.9602C19.2688 13.0847 19.5318 13.2972 19.7179 13.5709C19.9041 13.8447 20.005 14.1674 20.0081 14.4985V18.3442C20.0063 18.5694 19.9589 18.7919 19.8689 18.9983C19.7789 19.2047 19.648 19.3908 19.4841 19.5453C19.3203 19.6998 19.1269 19.8195 18.9155 19.8973C18.7042 19.9751 18.4793 20.0093 18.2544 19.9979C3.54063 19.0826 0.57172 6.62239 0.0102431 1.85368C-0.0158211 1.6195 0.00799306 1.38246 0.0801187 1.15814C0.152244 0.933831 0.271047 0.727331 0.428711 0.55223C0.586374 0.377128 0.779326 0.237394 0.994872 0.142219C1.21042 0.0470438 1.44367 -0.00141458 1.67929 3.14343e-05H5.39427C5.72578 0.0010127 6.04942 0.101149 6.32355 0.287561C6.59769 0.473973 6.80978 0.738135 6.93257 1.04607L7.77094 3.14584C7.89419 3.44817 7.92564 3.78011 7.86135 4.10021C7.79706 4.4203 7.63987 4.71436 7.40944 4.94565L5.68655 6.66854C5.68655 6.66854 6.67875 13.3832 13.3396 14.2139Z" fill="#DD71C6"/>
-                </svg>
-                <div>
-                    <p class="phoneWord">Phone: <p class="light">773-496-4222</p></p>  
-                </div>
-            </div>
-        </div>
-        <div class="aboutLinks">
-            <div class="aboutFooter">
-                <h4>About</h4>
-                <ul>
-                    <li>About Us</li>
-                    <li>Book Online</li>
-                    <li>Locations</li>
-                    <li>Real Patient Stories</li>
-                    <li>Weight Loss Programs</li>
-                </ul>
-            </div>
-            <div class="moreLinks">
-                <h4>More Links</h4>
-                <ul>
-                    <li>Franchise Opportunities</li>
-                    <li>Career Opportunities</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Return Policy</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-        <svg width="132" height="30" viewBox="0 0 132 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="networks">
-            <circle cx="66" cy="15" r="15" fill="#DD71C6"/>
-            <path d="M73 10.3466C72.4794 10.575 71.9246 10.7264 71.3462 10.7999C71.9412 10.4446 72.3954 9.88637 72.6089 9.2135C72.0541 9.54425 71.4416 9.77788 70.7889 9.90825C70.2621 9.34738 69.5114 9 68.6924 9C67.1034 9 65.8241 10.2898 65.8241 11.8709C65.8241 12.0984 65.8434 12.3171 65.8906 12.5254C63.5045 12.409 61.3931 11.2654 59.9747 9.52325C59.7271 9.95288 59.5819 10.4446 59.5819 10.974C59.5819 11.968 60.0938 12.8491 60.8568 13.3593C60.3956 13.3505 59.9433 13.2166 59.56 13.0058C59.56 13.0145 59.56 13.0259 59.56 13.0373C59.56 14.432 60.5549 15.5905 61.8595 15.8574C61.6259 15.9212 61.3712 15.9519 61.107 15.9519C60.9232 15.9519 60.7377 15.9414 60.5636 15.9029C60.9355 17.0395 61.9908 17.8751 63.2455 17.9023C62.269 18.6661 61.0291 19.1264 59.6869 19.1264C59.4515 19.1264 59.2257 19.1159 59 19.087C60.2714 19.9069 61.7781 20.375 63.403 20.375C68.6845 20.375 71.572 16 71.572 12.2077C71.572 12.0809 71.5676 11.9584 71.5615 11.8368C72.1311 11.4325 72.6097 10.9276 73 10.3466Z" fill="white"/>
-            <circle cx="117" cy="15" r="15" fill="#DD71C6"/>
-            <path d="M115.693 22V15.4308H114V13.0656H115.693V11.0454C115.693 9.45785 116.693 8 118.997 8C119.93 8 120.62 8.09177 120.62 8.09177L120.566 10.3005C120.566 10.3005 119.862 10.2935 119.094 10.2935C118.263 10.2935 118.13 10.6864 118.13 11.3385V13.0656H120.632L120.523 15.4308H118.13V22H115.693Z" fill="white"/>
-            <circle cx="15" cy="15" r="15" fill="#DD71C6"/>
-            <path d="M14.9981 12.6657C13.7128 12.6657 12.6638 13.7146 12.6638 15C12.6638 16.2854 13.7128 17.3343 14.9981 17.3343C16.2835 17.3343 17.3324 16.2854 17.3324 15C17.3324 13.7146 16.2835 12.6657 14.9981 12.6657ZM21.9992 15C21.9992 14.0333 22.008 13.0754 21.9537 12.1105C21.8994 10.9898 21.6437 9.99512 20.8242 9.17556C20.0029 8.35426 19.01 8.10034 17.8893 8.04605C16.9226 7.99176 15.9648 8.00052 14.9999 8.00052C14.0332 8.00052 13.0754 7.99176 12.1105 8.04605C10.9897 8.10034 9.99508 8.35601 9.17554 9.17556C8.35425 9.99687 8.10034 10.9898 8.04605 12.1105C7.99177 13.0772 8.00052 14.0351 8.00052 15C8.00052 15.9649 7.99177 16.9246 8.04605 17.8895C8.10034 19.0102 8.356 20.0049 9.17554 20.8244C9.99683 21.6457 10.9897 21.8997 12.1105 21.9539C13.0771 22.0082 14.035 21.9995 14.9999 21.9995C15.9665 21.9995 16.9244 22.0082 17.8893 21.9539C19.01 21.8997 20.0047 21.644 20.8242 20.8244C21.6455 20.0031 21.8994 19.0102 21.9537 17.8895C22.0097 16.9246 21.9992 15.9667 21.9992 15ZM14.9981 18.5917C13.0106 18.5917 11.4065 16.9876 11.4065 15C11.4065 13.0124 13.0106 11.4083 14.9981 11.4083C16.9857 11.4083 18.5897 13.0124 18.5897 15C18.5897 16.9876 16.9857 18.5917 14.9981 18.5917ZM18.7368 12.1C18.2728 12.1 17.898 11.7253 17.898 11.2612C17.898 10.7972 18.2728 10.4224 18.7368 10.4224C19.2009 10.4224 19.5756 10.7972 19.5756 11.2612C19.5758 11.3714 19.5542 11.4806 19.5121 11.5824C19.47 11.6842 19.4082 11.7767 19.3303 11.8547C19.2523 11.9326 19.1598 11.9944 19.058 12.0365C18.9562 12.0786 18.847 12.1002 18.7368 12.1Z" fill="white"/>
-        </svg>
-        <p class="copyright">Copyright by A Better Weigh Inc. All rights reserved.</p>
+        </section>
 </body>
 </html>
